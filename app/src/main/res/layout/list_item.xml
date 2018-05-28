@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/song">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/album_art"
+        android:layout_margin="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/waterfall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_name"
+        android:text="Buckets"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/album_art"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/artist_name"
+        android:text="Wallbangers"
+        android:textSize="15sp"
+        android:layout_marginTop="-8dp"
+        android:layout_toRightOf="@id/album_art"
+        android:layout_below="@id/song_name"/>
+
+</RelativeLayout>
