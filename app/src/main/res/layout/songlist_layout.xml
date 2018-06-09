@@ -14,13 +14,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="BACK TO LOGO"
-            android:id="@+id/back_to_logo"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Now Playing"
-            android:layout_alignParentRight="true"
-            android:id="@+id/now_playing" />
+            android:id="@+id/back_to_logo"
+            android:layout_margin="10dp"/>
+
     </RelativeLayout>
 
 
